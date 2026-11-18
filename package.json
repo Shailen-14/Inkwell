@@ -1,0 +1,20 @@
+{
+  "name": "mern-ts-blog",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Simple MERN + TypeScript blogging app with authentication",
+  "scripts": {
+    "dev": "concurrently -k -n server,client -c cyan,magenta \"npm:dev --prefix server\" \"npm:dev --prefix client\"",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "seed": "npm run seed --prefix server",
+    "lint": "oxlint server/src client/src",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "build": "npm run build --prefix server && npm run build --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "oxlint": "^1.94.0",
+    "prettier": "^3.10.1"
+  }
+}
