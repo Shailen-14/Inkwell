@@ -29,7 +29,6 @@ A simple, clean blogging app with JWT authentication, four DaisyUI themes, and a
 
 ## Screenshots
 
-Captured from the running app.
 
 |                    Home feed                     |                  Login                  |                   Sign up                    |
 | :----------------------------------------------: | :-------------------------------------: | :------------------------------------------: |
