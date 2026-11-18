@@ -14,19 +14,19 @@ const DEMO = {
 
 const posts = [
   {
-    title: 'Welcome to Inkwell',
+    title: 'The day my coffee fought back',
     content:
-      'Inkwell is a small blogging app built with the MERN stack and TypeScript. Sign in, write a post, and share your ideas with the world.\n\nUse the theme switcher in the navbar to try light, dark, cupcake, or forest mode.',
+      'I asked the coffee machine for "something strong." It took that personally and brewed what can only be described as liquid confidence. Three sirens and one very alert hamster later, I decided to make peace and drink it anyway.',
   },
   {
-    title: 'Why MVC keeps this app simple',
+    title: 'A very serious review of socks',
     content:
-      'The server is split into models, views, and controllers. Models describe the data, controllers hold the business logic, and routes decide which controller runs. The React client is the view layer and talks to the API with Axios.',
+      'Socks are the unsung heroes of modern life. They keep feet warm, prevent blisters, and quietly disappear in the laundry with the patience of a saint. Ten out of ten would wear again, assuming they ever return.',
   },
   {
-    title: 'A quick note on authentication',
+    title: 'How to train your houseplant',
     content:
-      'Passwords are hashed with bcryptjs before they are stored. After login, the server signs a JWT and the client sends it back in the Authorization header for protected actions like creating, editing, and deleting posts.',
+      'Step one: give it light. Step two: give it water. Step three: accept that it has its own plans. My fern has been thriving on neglect and mild encouragement, which honestly describes my entire approach to adulthood.',
   },
 ];
 
