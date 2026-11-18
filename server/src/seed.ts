@@ -31,7 +31,7 @@ const posts = [
 ];
 
 const seed = async (): Promise<void> => {
-  const uri = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/mern_ts_blog';
+  const uri = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/inkwell_db';
   await connectDB(uri);
 
   const password = await bcrypt.hash(DEMO.password, 10);
