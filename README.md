@@ -110,13 +110,13 @@ npm run dev
 
 ### Environment variables
 
-Copy the example files and edit if needed. The defaults work with local MongoDB at `mongodb://127.0.0.1:27017/mern_ts_blog`.
+Copy the example files and edit if needed. The defaults work with local MongoDB at `mongodb://127.0.0.1:27017/inkwell_db`.
 
 `server/env.example`
 
 ```env
 PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/mern_ts_blog
+MONGO_URI=mongodb://127.0.0.1:27017/inkwell_db
 JWT_SECRET=replace-this-with-a-long-random-secret
 CLIENT_URL=http://localhost:5173
 COOKIE_SAME_SITE=lax
@@ -174,3 +174,4 @@ npm run format         # format all files with Prettier
 npm run format:check   # verify formatting
 npm run build          # production builds for server and client
 
+```
