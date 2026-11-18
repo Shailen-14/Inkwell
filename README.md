@@ -86,12 +86,6 @@ Captured from the running app.
 └── docs/screenshots/      # README screenshots
 ```
 
-The React app was scaffolded with:
-
-```bash
-npx create-vite@latest client --template react-ts
-```
-
 ## Getting started
 
 Requirements: Node.js 20.19+ and a local MongoDB instance.
